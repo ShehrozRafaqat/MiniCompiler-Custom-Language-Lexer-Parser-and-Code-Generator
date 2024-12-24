@@ -1,0 +1,44 @@
+% The following functions are for the library 'math' 
+it does simple addition, subtraction, multiplication
+and division %
+
+# to test compiler
+fn void printHelloWorld(string y) {
+    string str = "Hello World";
+    int x = 10;
+    % print statement -
+    prints as output whatever in parenthesis %
+    print("Current value: " + str, x);
+}
+
+# addition
+fn int add(int a, int b) {
+    int z;
+    z = a + b;
+    return z;
+}
+
+# subtraction
+fn int subtract(int c, int d) {
+    int y;
+    y = c - d;
+    return y;
+}
+
+# multiplication
+fn int multiply(int e, int f) {
+    int x;
+    x = e*f;
+    return x;
+}
+
+# division
+fn double divide(double g, double h){
+    int x = 10;
+    double w;
+    w = g/h;
+    return x;
+}
+
+double x;
+x = call divide(10.0,10.0);

@@ -1,0 +1,41 @@
+# Declarations
+int a = 5;
+float b = 3.14f;
+double c = 10.5;
+string str = "Hello, World!";
+bool flag = true;
+char ch = 'A';
+
+% check if a is greater than b
+if it is then make a = 10
+else make b = 20.5 %
+if (a > b) {
+    a = 10;
+} else {
+    b = 20.5f;
+}
+
+# while block
+while (a < 15) {
+    a++;
+}
+
+for (int i = 0; i < 5; i++) {
+    c = c * 2;
+}
+
+% switch case block it checks in case of
+a = 10 then a = 100 in case 2 a = 20 then 
+a= 200 and in default case a = 300 % 
+switch (a) {
+    case 10:
+        a = 100;
+        break;
+    case 20:
+        a = 200;
+        break;
+    default:
+        a = 300;
+        break;
+}
+return 0;

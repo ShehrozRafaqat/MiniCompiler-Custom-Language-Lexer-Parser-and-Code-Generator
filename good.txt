@@ -1,0 +1,5 @@
+float a;
+a = "5.5";
+if (a > 3) {
+    return a;
+}

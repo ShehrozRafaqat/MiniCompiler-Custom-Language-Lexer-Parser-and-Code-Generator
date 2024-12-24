@@ -1,0 +1,25 @@
+int x;
+float y;
+double z;
+string name;
+char c;
+bool flag;
+flag = false;
+name = "Hello World";
+c = 'A';
+x = 42;
+y = 3.14f;
+z = 2.71828;
+
+if(x>y){
+    flag = true;
+    return flag;
+}
+else{
+    flag = false;
+    return flag;
+}
+
+if(flag) {
+    return true;
+}
